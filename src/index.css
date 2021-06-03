@@ -1,0 +1,144 @@
+
+  Nav {
+    margin-left: 310px;
+}
+
+.navlinks {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding-right: 40px;
+    text-decoration-line: none !important;
+
+}
+
+.navlinks:hover{
+    color:rgb(112, 113, 114) !important;
+}
+
+@media (max-width:1100px) {
+    Nav{
+      margin-left: 0;
+    }
+
+  }
+
+  body {
+    background-color: rgb(36, 36, 36);
+  }
+    
+  .img-main {
+    margin-left: 200px !important;
+    margin-right: -15px;
+    z-index: 3;
+    margin-top: -100px;
+    box-shadow: -10px 10px 20px black;
+    
+  }
+
+  .img-logo {
+
+      margin-top: 50px;
+      margin-right: 10px;
+  }
+  
+  @media (max-width:1200px) {
+    img.img-main {
+      display: none;
+    }
+
+    img.img-logo {
+      width: 400px;
+    }
+    img.img-about{
+      width: 400px;
+    }
+    .about-card {
+        margin-left: 50px;
+    }
+
+    .links-card {
+      margin-left: 10px !important;
+      width: 400px;
+    }
+
+}
+
+
+
+.img-about {
+
+    margin-top: 80px;
+   
+}
+
+.about-card {
+    background: transparent;
+    border-color: transparent;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 5;
+    margin-top: -430px;
+    text-align: center;
+
+}
+
+.links-card {
+  margin-top: 60px;
+  text-align: center;
+  background-color: transparent;
+  border-color: transparent;
+  width: 450px;
+  z-index: 10;
+  margin-left: 260px;
+
+  
+}
+
+#icon-link {
+  color: whitesmoke;
+  border-color: transparent;
+  font-size: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(36, 36, 36);
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+
+.btn-tag {
+  text-align: center;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.contact-card {
+  background: transparent;
+    border-color: transparent;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 5;
+    margin-top: -365px;
+    text-align: center;
+}
+
